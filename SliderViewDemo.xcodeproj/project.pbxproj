@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		285D352B1FB42D4100051AED /* MyPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 285D352A1FB42D4100051AED /* MyPanGestureRecognizer.m */; };
+		289AFB0F1FD003D5000C957E /* SubTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289AFB0E1FD003D5000C957E /* SubTableView.m */; };
 		289BEE631FB2A91100745517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BEE621FB2A91100745517 /* AppDelegate.m */; };
 		289BEE661FB2A91100745517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289BEE651FB2A91100745517 /* ViewController.m */; };
 		289BEE691FB2A91100745517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289BEE671FB2A91100745517 /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 		285D35291FB42D4100051AED /* MyPanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPanGestureRecognizer.h; sourceTree = "<group>"; };
 		285D352A1FB42D4100051AED /* MyPanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPanGestureRecognizer.m; sourceTree = "<group>"; };
 		287816AE1FC5628A00BF4D93 /* Public.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Public.h; sourceTree = "<group>"; };
+		289AFB0D1FD003D5000C957E /* SubTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubTableView.h; sourceTree = "<group>"; };
+		289AFB0E1FD003D5000C957E /* SubTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubTableView.m; sourceTree = "<group>"; };
 		289BEE5E1FB2A91100745517 /* SliderViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		289BEE611FB2A91100745517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		289BEE621FB2A91100745517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 			children = (
 				28C5C5681FC2CB15004F309B /* HeaderBtn.h */,
 				28C5C5691FC2CB15004F309B /* HeaderBtn.m */,
+				289AFB0D1FD003D5000C957E /* SubTableView.h */,
+				289AFB0E1FD003D5000C957E /* SubTableView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				289BEE711FB2A91100745517 /* main.m in Sources */,
 				28F50D011FCE87F500DB34F6 /* Tab2ViewController.m in Sources */,
 				289BEE631FB2A91100745517 /* AppDelegate.m in Sources */,
+				289AFB0F1FD003D5000C957E /* SubTableView.m in Sources */,
 				289BEE791FB2A93C00745517 /* MainViewController.m in Sources */,
 				289FD2201FC665E800C49C35 /* NextViewController.m in Sources */,
 				28F50CFE1FCE87E500DB34F6 /* Tab1ViewController.m in Sources */,
